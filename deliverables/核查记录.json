@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-19",
+  "version": "v0.3",
+  "delivery": "Git-tracked files under deliverables/",
+  "repository": "https://github.com/llmu965776-sys/1-homework",
+  "branch": "codex/investor-qa-deliverables-20261019",
+  "pdf_pages": 4,
+  "workbook_sheets": 16,
+  "formal_experiments_executed": false,
+  "checks": [
+    "5 pilot questions and answer/evidence sheets unchanged",
+    "8 candidate companies x 10 questions = 80; four types x 20 = 80",
+    "L11b split observations sum to 7818963",
+    "Reply classifier correct 920/1000",
+    "Budget scenarios 17.20, 31.20, 40.56 yuan; estimates only"
+  ],
+  "remaining": [
+    "Archive original evidence pages",
+    "B/D independent pilot review",
+    "API and human experiments",
+    "Verify competition notice"
+  ],
+  "files": {
+    "01_队长A精读与推进简要说明_v03.docx": "890fbf3ae05f491ccedb2a6887dc4bc718470581e730b45157d6cea54192889c",
+    "01_队长A精读与推进简要说明_v03.pdf": "14fceb8869468a84f36ae21b2a8f47a58acfa8b03944602fa0e1ed6e0543832c",
+    "02_文献精读与5题工作簿_v03.xlsx": "613c202ce6f96db2d7805ca9743e9967c65045a4cd386d0e8d4cc9b336331159",
+    "03_五题_仅题目与证据索引.csv": "c05aba4712ea2707e642527efa3cf39e7f5ce6c95e0ac5c7d74b81b3009cc201",
+    "04_可放入报告的文献综述.txt": "b505d0f1fa83adeeb8eb5b6a48431e606a7999996cd55bdc20f4d5483158b0f5",
+    "05_文献精读可复制版.md": "d63e38ee0553cdd15ed9429c2a4c287e7cf7b0080e280f747e5c6b6710a8da3b",
+    "06_可转发给BCD的任务通知.txt": "e475b9d3ee2975d9479a803891e12e4e56ef97a6b00757ecda41a8077d9484a3",
+    "README.md": "b4f91aa26abdcc66ea9bc59637c891f90281d40819670ee06799dc6e462f7022",
+    "文件说明.txt": "491f154fa393cbc342267e8708f23b91f92f8d5f668dc3a63f456464a60997fa"
+  }
+}
