@@ -1,34 +1,53 @@
 {
-  "date": "2026-10-19",
-  "version": "v0.3",
-  "delivery": "Git-tracked files under deliverables/",
+  "date": "2026-10-20",
+  "version": "v0.4",
+  "delivery": "Git-tracked actual files under deliverables/",
+  "latest_user_confirmed_status": "20 pilot questions and evidence still being collected; revised schedule in 08",
   "repository": "https://github.com/llmu965776-sys/1-homework",
   "branch": "codex/investor-qa-deliverables-20261019",
-  "pdf_pages": 4,
-  "workbook_sheets": 16,
+  "models_family_confirmed": [
+    "DeepSeek",
+    "千问"
+  ],
+  "exact_model_configuration": "recommended; pending C connectivity test and pilot freeze",
+  "pdf_pages": {
+    "01_队长A精读与推进简要说明_v04.pdf": 4,
+    "07_A现在可推进的工作与主稿底稿_v04.pdf": 4
+  },
+  "workbook_sheets": 17,
   "formal_experiments_executed": false,
+  "budget_estimates_yuan": [
+    8.0,
+    14.4,
+    18.72
+  ],
   "checks": [
-    "5 pilot questions and answer/evidence sheets unchanged",
-    "8 candidate companies x 10 questions = 80; four types x 20 = 80",
-    "L11b split observations sum to 7818963",
-    "Reply classifier correct 920/1000",
-    "Budget scenarios 17.20, 31.20, 40.56 yuan; estimates only"
+    "Seven literature/pilot/evidence sheets unchanged in values",
+    "CSV byte-identical to v0.3",
+    "Both Word files and PDFs readable; PDFs four pages each",
+    "New Qwen model/price and budget formulas verified",
+    "Files not ignored by gitignore"
   ],
   "remaining": [
     "Archive original evidence pages",
     "B/D independent pilot review",
+    "C exact model/configuration test",
     "API and human experiments",
     "Verify competition notice"
   ],
   "files": {
-    "01_队长A精读与推进简要说明_v03.docx": "890fbf3ae05f491ccedb2a6887dc4bc718470581e730b45157d6cea54192889c",
-    "01_队长A精读与推进简要说明_v03.pdf": "14fceb8869468a84f36ae21b2a8f47a58acfa8b03944602fa0e1ed6e0543832c",
-    "02_文献精读与5题工作簿_v03.xlsx": "613c202ce6f96db2d7805ca9743e9967c65045a4cd386d0e8d4cc9b336331159",
+    "01_队长A精读与推进简要说明_v04.docx": "5ccba72d8af234a03bdb92682ce3e9eb79108cdcb2f99001f5e50357729cb55d",
+    "01_队长A精读与推进简要说明_v04.pdf": "945e74bd8809b7418057ca73e06ff3fc6f8cd9440b54d586b4a327dce683456f",
+    "02_文献精读与5题工作簿_v04.xlsx": "6d5d77eb5de58b11b3513a48fb526dbb8d07c2a22448776d572fc0a8e396ef01",
     "03_五题_仅题目与证据索引.csv": "c05aba4712ea2707e642527efa3cf39e7f5ce6c95e0ac5c7d74b81b3009cc201",
-    "04_可放入报告的文献综述.txt": "b505d0f1fa83adeeb8eb5b6a48431e606a7999996cd55bdc20f4d5483158b0f5",
-    "05_文献精读可复制版.md": "d63e38ee0553cdd15ed9429c2a4c287e7cf7b0080e280f747e5c6b6710a8da3b",
-    "06_可转发给BCD的任务通知.txt": "e475b9d3ee2975d9479a803891e12e4e56ef97a6b00757ecda41a8077d9484a3",
-    "README.md": "b4f91aa26abdcc66ea9bc59637c891f90281d40819670ee06799dc6e462f7022",
-    "文件说明.txt": "491f154fa393cbc342267e8708f23b91f92f8d5f668dc3a63f456464a60997fa"
+    "04_可放入报告的文献综述.txt": "05586718097edede2151e0d41874c79fb728ce51e466dc34562af99d83349144",
+    "05_文献精读可复制版.md": "509cc9ca1e598919521f89eab06754835702bfe3d1fa0ab9cf80223eafa404b9",
+    "06_可转发给BCD的任务通知.txt": "03cdd7dfe0ade636aacc1e52a54ddb140c39317bc528c697e6d3525e191ccabf",
+    "07_A现在可推进的工作与主稿底稿_v04.docx": "84eee3dbf9f8cdc05cd4d3458e26614e26383ae2608d990e041aa738bba5513a",
+    "07_A现在可推进的工作与主稿底稿_v04.md": "edd6ddc5d091874cf86d640e6126783b734c79d233822938b4bd0cb7e3f7089e",
+    "07_A现在可推进的工作与主稿底稿_v04.pdf": "2251f7eafdd59a0714ea10066e9d200be3d3ca79267a1b35340f192e736a82f6",
+    "08_预实验收集阶段的进度调整.md": "962b836165eb8a851ff9a60e7c04efd817b79107be857b351f4a3806d8fe80c6",
+    "README.md": "f62e7f01bf54606015cbc1dc8f6e256c7a381a9d8d8f0083f0d0cf878850f6f9",
+    "文件说明.txt": "4bdb2c94572a1f59e854b13f89e505f80c45ae1d1869d3d55887de813846c178"
   }
 }
