@@ -1,0 +1,38 @@
+{
+  "version": "0.7",
+  "date_bjt": "2026-10-23",
+  "scope": "时点补证与接口测试交接补充，原始题库仍为v0.6",
+  "candidate_questions": 20,
+  "exact_question_times": 9,
+  "question_times_unresolved": 11,
+  "archived_original_pdfs": 7,
+  "missing_annual_pdf": "1225251420.PDF",
+  "smoke_questions": 2,
+  "planned_smoke_calls": 8,
+  "actual_api_calls_received": 0,
+  "completed_human_tasks_received": 0,
+  "formal_frozen_questions": 0,
+  "captain_approved_model_preparation": true,
+  "formal_config_frozen": false,
+  "workbook_sheets": 7,
+  "cached_formulas": 22,
+  "memo_pdf_pages": 3,
+  "budget_scenarios_cny": {
+    "base_with_30pct_reserve": 5.367648,
+    "stress_with_30pct_reserve": 22.28274048
+  },
+  "checks": [
+    "20题准入状态保留缺口；11题时间仍为空",
+    "2题输入、提示词、计划调用表和4页证据PDF与v0.6逐字节一致",
+    "C配置已获队长同意准备，API尚未调用；价格记录不是账单",
+    "7张Excel表，公式已重算并保留缓存；8条实际运行字段为空",
+    "3页Word/PDF已导出并抽页视觉核查；不含实测结论",
+    "老板/立讯补充巨潮链接；未宣称与上传件字节相同"
+  ],
+  "remaining": [
+    "智动力年报完整PDF归档",
+    "11题原问时间补证或换题",
+    "完整20题独立校准与预实验",
+    "正式80题、24题人工子样本冻结和执行"
+  ]
+}

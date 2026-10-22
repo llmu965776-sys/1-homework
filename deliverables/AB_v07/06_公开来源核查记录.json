@@ -1,0 +1,84 @@
+[
+  {
+    "id": "S01",
+    "title": "老板电器2026-001活动记录（巨潮公开链接）",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-05-13/1225304104.PDF",
+    "locator": "PDF第1–4页",
+    "finding": "编号、活动日期及5道问题可定位；没有逐题提交时间。与用户上传文件对应，未检验两链接PDF字节一致性。",
+    "checked_date_bjt": "2026-10-23",
+    "capture_type": "结构化核读记录；不是网页或PDF原件归档"
+  },
+  {
+    "id": "S02",
+    "title": "老板电器2025年度网上说明会公告",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225237778.PDF",
+    "locator": "PDF第1页",
+    "finding": "说明会在2026-05-13召开，允许5月12日前提前提问；活动日期不能直接赋给逐题时间。",
+    "checked_date_bjt": "2026-10-23",
+    "capture_type": "结构化核读记录；不是网页或PDF原件归档"
+  },
+  {
+    "id": "S03",
+    "title": "立讯精密2026-002活动记录（巨潮公开链接）",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-05-07/1225280960.PDF",
+    "locator": "14页；第1页活动信息；第14页第85问",
+    "finding": "活动在2026-05-06；股东数题在第85问。原始提交时间仍缺；事后公司回复不能进入输入。",
+    "checked_date_bjt": "2026-10-23",
+    "capture_type": "结构化核读记录；不是网页或PDF原件归档"
+  },
+  {
+    "id": "S04",
+    "title": "立讯精密网上说明会通知（新浪公告转载）",
+    "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12129431&stockid=002475",
+    "locator": "公告日期2026-04-22；公告正文",
+    "finding": "接受4月30日18:00前邮件提问；未说明每道候选题的来源或实际提交日期。公告日期不能自动充当提问下界。",
+    "checked_date_bjt": "2026-10-23",
+    "capture_type": "结构化核读记录；不是网页或PDF原件归档"
+  },
+  {
+    "id": "S05",
+    "title": "智动力2025年年度报告全文",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225251420.PDF",
+    "locator": "205页；网页解析可读",
+    "finding": "在线可读与完整PDF已下载是两种状态。目前完整原件仍未在工作区归档。",
+    "checked_date_bjt": "2026-10-23",
+    "capture_type": "结构化核读记录；不是网页或PDF原件归档"
+  },
+  {
+    "id": "S06",
+    "title": "DeepSeek人民币模型价格",
+    "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+    "locator": "模型细节表及脚注1、2",
+    "finding": "deepseek-flash当前文档映射DeepSeek-V4.1-Flash-1017；存在峰谷与缓存价格，见结构化计费摘录。",
+    "checked_date_bjt": "2026-10-23",
+    "capture_type": "结构化核读记录；不是网页或PDF原件归档"
+  },
+  {
+    "id": "S07",
+    "title": "百炼模型调用价格",
+    "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "access_url": "https://help.aliyun.com/zh/model-studio/model-pricing?userCode=r3yteowb",
+    "locator": "文本生成—千问Flash—华北2（北京）",
+    "finding": "qwen3.7-flash-2026-07-15支持分档计价，具体单价与地域见结构化摘录；运行前复查。",
+    "checked_date_bjt": "2026-10-23",
+    "capture_type": "结构化核读记录；不是网页或PDF原件归档"
+  },
+  {
+    "id": "S08",
+    "title": "DeepSeek Chat Completions API",
+    "url": "https://api-docs.deepseek.com/api/create-chat-completion/",
+    "locator": "thinking、temperature、max_tokens",
+    "finding": "可显式关闭思考；非思考模式下温度有效。参数需保留原始请求与返回核对。",
+    "checked_date_bjt": "2026-10-23",
+    "capture_type": "结构化核读记录；不是网页或PDF原件归档"
+  },
+  {
+    "id": "S09",
+    "title": "百炼深度思考说明",
+    "url": "https://help.aliyun.com/zh/model-studio/deep-thinking",
+    "locator": "使用方式及Qwen3.7支持列表",
+    "finding": "该千问快照支持混合思考；OpenAI兼容接口使用enable_thinking关闭。",
+    "checked_date_bjt": "2026-10-23",
+    "capture_type": "结构化核读记录；不是网页或PDF原件归档"
+  }
+]
