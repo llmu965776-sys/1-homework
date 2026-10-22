@@ -1,0 +1,39 @@
+{
+  "version": "0.6",
+  "date": "2026-10-22",
+  "pilot_candidates": 20,
+  "precise_question_timestamps": 9,
+  "event_date_only": 11,
+  "archived_original_documents": 7,
+  "archived_original_bytes": 11910589,
+  "original_pdfs_in_github": false,
+  "evidence_cards": 21,
+  "cards_with_original_hash": 13,
+  "raw_source_pages_delivered": 19,
+  "smoke_questions": 2,
+  "planned_smoke_calls": 8,
+  "actual_api_calls": 0,
+  "actual_human_tasks": 0,
+  "formal_frozen_questions": 0,
+  "CD_commitment": "C/D各24次已由队长确认；实际题号未分配",
+  "workbook_sheets": 15,
+  "recalculated_formulas": 12,
+  "main_pdf_pages": 10,
+  "smoke_pdf_pages": 4,
+  "checks": [
+    "Seven originals copied byte-identically and SHA256 recorded; PDF identities and page counts checked",
+    "Key tables checked against extracted text; Su p12/13/14/16, ZD p3, Robam p14, Luxshare p94 also visually checked",
+    "Eleven source questions match uploaded event records after whitespace normalization; posting times remain unknown",
+    "Nineteen raw page texts match uploaded originals; derived 4-page PDF text matches originals",
+    "Two question payload hashes and 8 empty planned-run rows validated; no gold or event replies in smoke input",
+    "Workbook formulas recalculated with LibreOffice, original styling retained; Word/PDF readable and 10 pages",
+    "Source discrepancy retained as unresolved; no experimental results fabricated"
+  ],
+  "remaining": [
+    "智动力2025年报1225251420.PDF未上传",
+    "11题原始提交时间缺失",
+    "苏泊尔P-A06两表差异原因未确定",
+    "更多提问前公告检索及A/D独立复核",
+    "完整20题预实验、正式80题和人工实验未执行"
+  ]
+}
