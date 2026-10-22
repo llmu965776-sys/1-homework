@@ -1,53 +1,42 @@
 {
-  "date": "2026-10-20",
-  "version": "v0.4",
-  "delivery": "Git-tracked actual files under deliverables/",
-  "latest_user_confirmed_status": "20 pilot questions and evidence still being collected; revised schedule in 08",
-  "repository": "https://github.com/llmu965776-sys/1-homework",
-  "branch": "codex/investor-qa-deliverables-20261019",
-  "models_family_confirmed": [
-    "DeepSeek",
-    "千问"
-  ],
-  "exact_model_configuration": "recommended; pending C connectivity test and pilot freeze",
-  "pdf_pages": {
-    "01_队长A精读与推进简要说明_v04.pdf": 4,
-    "07_A现在可推进的工作与主稿底稿_v04.pdf": 4
+  "current_package": "AB_v05",
+  "current_checks": {
+    "date": "2026-10-22",
+    "source_review_date": "2026-10-21",
+    "CD_commitment_confirmed": true,
+    "version": "0.5",
+    "repository": "https://github.com/llmu965776-sys/1-homework",
+    "branch": "codex/investor-qa-deliverables-20261019",
+    "pilot_candidates": 20,
+    "companies": 4,
+    "precise_question_timestamps": 9,
+    "event_date_only": 11,
+    "evidence_fact_cards": 20,
+    "archived_source_documents": 0,
+    "formal_ready": 0,
+    "api_calls_this_round": 0,
+    "human_tasks_executed": 0,
+    "workbook_sheets": 12,
+    "pdf_pages": 10,
+    "formulas_recalculated": 9,
+    "human_task_slots": 48,
+    "checks": [
+      "20 unique question IDs and texts; source/evidence references valid",
+      "Nine known timestamps follow conservative cutoffs; eleven missing times flagged U",
+      "No gold labels or post-answer content in input-only draft; all runs blocked pending approval of evidence",
+      "48 slots balanced by person, condition and type; no repeated question per person or self-rating",
+      "LibreOffice formula results cached and verified; Word/PDF readable; first two pages are standalone problem brief",
+      "PDF page count and text checked; first and final pages visually inspected",
+      "Three fully read literature entries preserved from v0.4"
+    ],
+    "limitations": [
+      "P-A06 table discrepancy remains U",
+      "Eleven original posting times missing",
+      "Original PDF archiving and human review pending",
+      "D labels based on incomplete search; must re-evaluate after additional evidence",
+      "C/D each confirmed 24 tasks on 2026-10-22; formal question allocation still pending"
+    ],
+    "publishing": "actual final files, not scripts; check ignore and Git object hashes before branch update"
   },
-  "workbook_sheets": 17,
-  "formal_experiments_executed": false,
-  "budget_estimates_yuan": [
-    8.0,
-    14.4,
-    18.72
-  ],
-  "checks": [
-    "Seven literature/pilot/evidence sheets unchanged in values",
-    "CSV byte-identical to v0.3",
-    "Both Word files and PDFs readable; PDFs four pages each",
-    "New Qwen model/price and budget formulas verified",
-    "Files not ignored by gitignore"
-  ],
-  "remaining": [
-    "Archive original evidence pages",
-    "B/D independent pilot review",
-    "C exact model/configuration test",
-    "API and human experiments",
-    "Verify competition notice"
-  ],
-  "files": {
-    "01_队长A精读与推进简要说明_v04.docx": "5ccba72d8af234a03bdb92682ce3e9eb79108cdcb2f99001f5e50357729cb55d",
-    "01_队长A精读与推进简要说明_v04.pdf": "945e74bd8809b7418057ca73e06ff3fc6f8cd9440b54d586b4a327dce683456f",
-    "02_文献精读与5题工作簿_v04.xlsx": "6d5d77eb5de58b11b3513a48fb526dbb8d07c2a22448776d572fc0a8e396ef01",
-    "03_五题_仅题目与证据索引.csv": "c05aba4712ea2707e642527efa3cf39e7f5ce6c95e0ac5c7d74b81b3009cc201",
-    "04_可放入报告的文献综述.txt": "05586718097edede2151e0d41874c79fb728ce51e466dc34562af99d83349144",
-    "05_文献精读可复制版.md": "509cc9ca1e598919521f89eab06754835702bfe3d1fa0ab9cf80223eafa404b9",
-    "06_可转发给BCD的任务通知.txt": "03cdd7dfe0ade636aacc1e52a54ddb140c39317bc528c697e6d3525e191ccabf",
-    "07_A现在可推进的工作与主稿底稿_v04.docx": "84eee3dbf9f8cdc05cd4d3458e26614e26383ae2608d990e041aa738bba5513a",
-    "07_A现在可推进的工作与主稿底稿_v04.md": "edd6ddc5d091874cf86d640e6126783b734c79d233822938b4bd0cb7e3f7089e",
-    "07_A现在可推进的工作与主稿底稿_v04.pdf": "2251f7eafdd59a0714ea10066e9d200be3d3ca79267a1b35340f192e736a82f6",
-    "08_预实验收集阶段的进度调整.md": "962b836165eb8a851ff9a60e7c04efd817b79107be857b351f4a3806d8fe80c6",
-    "README.md": "f62e7f01bf54606015cbc1dc8f6e256c7a381a9d8d8f0083f0d0cf878850f6f9",
-    "文件说明.txt": "4bdb2c94572a1f59e854b13f89e505f80c45ae1d1869d3d55887de813846c178"
-  }
+  "history": "v0.4 remains in its original ZIP and prior Git commit 3d27aea"
 }
