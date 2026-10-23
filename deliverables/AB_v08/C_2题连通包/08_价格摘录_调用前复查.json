@@ -1,0 +1,49 @@
+{
+  "as_of_bjt": "2026-10-23",
+  "capture_type": "官方网页结构化摘录；不是账户报价或账单",
+  "unit": "CNY per 1,000,000 tokens",
+  "deepseek": {
+    "request_model": "deepseek-flash",
+    "documented_served_version": "DeepSeek-V4.1-Flash-1017",
+    "source": "S06",
+    "peak": {
+      "input_miss": 2,
+      "input_hit": 0.04,
+      "output": 8
+    },
+    "off_peak": {
+      "input_miss": 1,
+      "input_hit": 0.02,
+      "output": 4
+    },
+    "peak_bjt": "周一至周五（不含中国法定节假日）09:00–12:00、14:00–18:00",
+    "note": "服务别名可能更新，保存调用时文档与响应model；公开API名不是版本不可变的保证"
+  },
+  "qwen": {
+    "request_model": "qwen3.7-flash-2026-07-15",
+    "region": "华北2（北京）",
+    "source": "S07",
+    "tiers": [
+      {
+        "input_tokens_gt": 0,
+        "input_tokens_lte": 32000,
+        "input": 0.2,
+        "output": 0.8
+      },
+      {
+        "input_tokens_gt": 32000,
+        "input_tokens_lte": 256000,
+        "input": 0.6,
+        "output": 2.4
+      },
+      {
+        "input_tokens_gt": 256000,
+        "input_tokens_lte": 1000000,
+        "input": 1.2,
+        "output": 4.8
+      }
+    ],
+    "note": "全部请求Token按该次输入长度所在档计价；缓存另核。没有用赠送额度估计长期价格"
+  },
+  "status": "队长已同意按建议准备；待C账户可用性验证；正式配置尚未冻结；不是按实验表现挑选模型"
+}

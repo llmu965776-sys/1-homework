@@ -1,0 +1,9 @@
+﻿run_id,question_id,model_family,flow,status,model_id,model_version,region,called_at_bjt,payload_sha256,prompt_version,parameters_json,input_tokens,output_tokens,cached_input_tokens,reasoning_tokens,actual_fee_yuan,reference_price_fee_yuan,latency_ms,http_error,retry_of,raw_output_file,final_answer_file
+SMOKE-P-A07-DeepSeek-direct,P-A07,DeepSeek,direct,not_run,,,,,abe0afd82529d1fbd8352ea71f3667e8c526d15184fe52d8a01c0969c6ff3542,smoke-0.6,,,,,,,,,,,,
+SMOKE-P-A07-DeepSeek-boundary,P-A07,DeepSeek,boundary,not_run,,,,,abe0afd82529d1fbd8352ea71f3667e8c526d15184fe52d8a01c0969c6ff3542,smoke-0.6,,,,,,,,,,,,
+SMOKE-P-A07-千问-direct,P-A07,千问,direct,not_run,,,,,abe0afd82529d1fbd8352ea71f3667e8c526d15184fe52d8a01c0969c6ff3542,smoke-0.6,,,,,,,,,,,,
+SMOKE-P-A07-千问-boundary,P-A07,千问,boundary,not_run,,,,,abe0afd82529d1fbd8352ea71f3667e8c526d15184fe52d8a01c0969c6ff3542,smoke-0.6,,,,,,,,,,,,
+SMOKE-P-A08-DeepSeek-direct,P-A08,DeepSeek,direct,not_run,,,,,f37852653dfbc346ef196fed71c61495dda491f6879a612d8a235b99a7d351e2,smoke-0.6,,,,,,,,,,,,
+SMOKE-P-A08-DeepSeek-boundary,P-A08,DeepSeek,boundary,not_run,,,,,f37852653dfbc346ef196fed71c61495dda491f6879a612d8a235b99a7d351e2,smoke-0.6,,,,,,,,,,,,
+SMOKE-P-A08-千问-direct,P-A08,千问,direct,not_run,,,,,f37852653dfbc346ef196fed71c61495dda491f6879a612d8a235b99a7d351e2,smoke-0.6,,,,,,,,,,,,
+SMOKE-P-A08-千问-boundary,P-A08,千问,boundary,not_run,,,,,f37852653dfbc346ef196fed71c61495dda491f6879a612d8a235b99a7d351e2,smoke-0.6,,,,,,,,,,,,

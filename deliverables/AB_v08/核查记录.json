@@ -1,0 +1,52 @@
+{
+  "version": "0.8",
+  "date_bjt": "2026-10-23",
+  "scope": "智动力年报收件、五题原页补证、队长复核与收件安排",
+  "candidate_questions": 20,
+  "exact_question_times": 9,
+  "question_times_unresolved": 11,
+  "archived_original_pdfs": 8,
+  "new_annual_pdf_pages": 205,
+  "evidence_cards": 21,
+  "cards_with_original_hash": 20,
+  "original_text_pages": 34,
+  "selected_pdf_pages": 16,
+  "captain_review_rows": 5,
+  "independent_D_review_rows": 5,
+  "completed_captain_review_rows": 0,
+  "completed_D_review_rows": 0,
+  "smoke_questions": 2,
+  "planned_smoke_calls": 8,
+  "actual_api_calls_received": 0,
+  "completed_human_tasks_received": 0,
+  "formal_frozen_questions": 0,
+  "workbook_sheet_counts": {
+    "main": 17,
+    "budget": 7
+  },
+  "cached_formulas": {
+    "02_20题候选与证据工作簿.xlsx": 20,
+    "18_准入检查与API预算.xlsx": 22
+  },
+  "document_pages": {
+    "01_AB研究主稿与执行说明.pdf": 10,
+    "19_队长待办与收件清单.pdf": 2
+  },
+  "checks": [
+    "8份原件字节哈希及页数一致；新增年报205页",
+    "34页文本逐字对照原件；16页选编文字与对应原页一致",
+    "5题无答案输入按提问前证据组织，未批准模型运行",
+    "20题候选、9题实际原时点；人工复核与正式冻结未伪填完成",
+    "20条数值复算和22条预算公式重算并保留缓存",
+    "Word/PDF导出并核查版面；年报缺口状态同步更新",
+    "C仍为P-A07/P-A08的8次调用准备包，未扩大任务"
+  ],
+  "remaining": [
+    "11题实际提问时间补证或替换",
+    "苏泊尔P-A06表间差异与规则来源原件核验",
+    "A五题复核及D独立校准",
+    "C八次接口原始输出、usage和费用回传",
+    "完整预实验、正式样本冻结与执行",
+    "比赛原始通知及提交模板核对"
+  ]
+}

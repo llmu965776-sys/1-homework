@@ -1,0 +1,119 @@
+{
+  "selected_pdf": "04_智动力5题证据原页.pdf",
+  "sha256": "0a14e07a42c6629864da32759007acf33416d9d3226fe2696804fe2dd74b743e",
+  "pages": [
+    {
+      "selected_page_1based": 1,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 2,
+      "page_id": "ZD_AR_p002",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 2,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 8,
+      "page_id": "ZD_AR_p008",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 3,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 10,
+      "page_id": "ZD_AR_p010",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 4,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 12,
+      "page_id": "ZD_AR_p012",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 5,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 13,
+      "page_id": "ZD_AR_p013",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 6,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 21,
+      "page_id": "ZD_AR_p021",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 7,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 25,
+      "page_id": "ZD_AR_p025",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 8,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 26,
+      "page_id": "ZD_AR_p026",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 9,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 31,
+      "page_id": "ZD_AR_p031",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 10,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 32,
+      "page_id": "ZD_AR_p032",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 11,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 33,
+      "page_id": "ZD_AR_p033",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 12,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 62,
+      "page_id": "ZD_AR_p062",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 13,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 64,
+      "page_id": "ZD_AR_p064",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 14,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 65,
+      "page_id": "ZD_AR_p065",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 15,
+      "source_id": "ZD_AR",
+      "original_pdf_page_1based": 66,
+      "page_id": "ZD_AR_p066",
+      "original_sha256": "05f2846b321d45cdf6ff0f79d67b5dd32a83c1a44622f55e4b4a37079f772155"
+    },
+    {
+      "selected_page_1based": 16,
+      "source_id": "ZD_Q1",
+      "original_pdf_page_1based": 3,
+      "page_id": "ZD_Q1_p003",
+      "original_sha256": "61c426404e84961f66043c0a0dc51efb7fe3ea004487d2e30d838482b295a85c"
+    }
+  ],
+  "note": "16页选编：前15页来自2025年报，最后1页来自2026一季报；页脚保留原印刷页码；不是完整年报。"
+}

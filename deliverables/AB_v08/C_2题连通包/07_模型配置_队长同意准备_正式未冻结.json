@@ -1,0 +1,47 @@
+{
+  "version": "0.7-proposed",
+  "approved_for_formal": false,
+  "purpose": "2题8次接口与计费测试，配合AB_v06/C_2题连通包",
+  "recommended_models": [
+    {
+      "family": "DeepSeek",
+      "provider": "DeepSeek官方",
+      "model": "deepseek-flash",
+      "base_url": "https://api.deepseek.com",
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "region": "由C按账户如实填报"
+    },
+    {
+      "family": "千问",
+      "provider": "阿里云百炼",
+      "model": "qwen3.7-flash-2026-07-15",
+      "region": "华北2（北京）",
+      "extra_body": {
+        "enable_thinking": false
+      },
+      "base_url": "由C核对北京地域OpenAI兼容端点"
+    }
+  ],
+  "common_requested_parameters": {
+    "temperature": 0,
+    "max_tokens": 2048,
+    "stream": false,
+    "tools": null
+  },
+  "parameter_notes": [
+    "只设temperature，不额外改top_p；须验证模型实际支持情况",
+    "两流程均关闭模型内置思考；边界判断是提示词条件，不是切换reasoning模型",
+    "不联网、不开工具调用；PDF文本与问题按v06固定内容传入",
+    "temperature=0也不保证完全确定性；记录截断、错误和服务版本变化",
+    "若C已有确定配置，先回传实际ID/地域/参数核对，不能擅自覆盖已产生的输出"
+  ],
+  "not_executed": true,
+  "secrets": "密钥只留C本地环境变量，不回传、不进入仓库",
+  "approved_for_smoke_preparation": true,
+  "captain_decision": "2026-10-23队长确认：尚未确定，先按你的建议准备",
+  "configuration_status": "已获队长同意作为接口测试准备配置；待C账户可用性验证；正式实验未冻结"
+}
