@@ -1,91 +1,97 @@
 {
-  "latest_CD_handoff": {
-    "version": "0.9",
-    "date_bjt": "2026-10-23",
-    "scope": "C/D独立交接包；A主资料仍为AB_v08",
-    "planned_smoke_calls": 8,
-    "received_smoke_outputs": 0,
-    "independent_review_questions": 7,
-    "completed_independent_reviews": 0,
-    "formal_tasks_per_person": 24,
-    "formal_tasks_completed": 0,
+  "latest": {
+    "version": "0.10",
+    "date_bjt": "2026-10-24",
+    "audit_file": "02_收件核验记录.json",
+    "received_api_attempts": 8,
+    "new_api_calls": 0,
+    "D_fact_review_rows": 7,
+    "D_output_scores": 0,
+    "A_output_scores": 0,
+    "D_original_preserved_byte_identical": true,
+    "model_answers_unedited": true,
+    "difference_rows": 15,
+    "D_workbook_sheets": 9,
+    "analysis_tests_passed": 6,
+    "quality_status": "pending; not zero",
     "formal_frozen": false,
-    "C_workbook_sheets": 3,
-    "D_workbook_sheets": 5,
     "PDF_pages": {
-      "00_队长转发与确认清单.pdf": 2,
-      "D_评价与核对/04_智动力5题证据原页.pdf": 16,
-      "D_评价与核对/06_评分规则草案_待D确认.pdf": 2,
-      "D_评价与核对/02_苏泊尔两题证据原页.pdf": 4,
-      "D_评价与核对/00_先读_D任务说明.pdf": 2,
-      "C_实验与数据/04_苏泊尔证据页.pdf": 4,
-      "C_实验与数据/00_先读_C任务说明.pdf": 2
+      "01_交付验收与下一步说明.pdf": 2,
+      "给A_独立八条评分/04_苏泊尔两题证据原页.pdf": 4,
+      "给A_独立八条评分/00_先读_A独立评分.pdf": 1,
+      "给C_补件与分析接口/00_先读_验收与补件说明.pdf": 1,
+      "给D_修订与八条试评/02_校准规则修订建议.pdf": 2,
+      "给D_修订与八条试评/07_智动力5题证据原页.pdf": 16,
+      "给D_修订与八条试评/00_先读_本轮只补修订与试评分.pdf": 1,
+      "给D_修订与八条试评/05_苏泊尔两题证据原页.pdf": 4
     },
     "checks": [
-      "C固定输入/提示词/8次槽位与v0.8一致",
-      "C/D匿名编号一一对应，输出和评分均空白",
-      "D包不含A参考答案、模型配置或匿名映射；公开仓库不提供访问隔离",
-      "C/D各24槽位，H/HA各12，真实题ID与计时为空",
-      "独立核对7题，8条试评分待真实输出",
-      "已明确公开上传授权；未发布密钥或实际账户记录"
-    ],
-    "pending": [
-      "C实际配置与交付时间",
-      "D规则意见、暴露记录与交付时间",
-      "C八次原始结果及D试评分",
-      "A五题复核与比赛原始通知"
+      "D original 5-sheet workbook archived byte-identically",
+      "D received evidence and rule rows retained without silent rewriting",
+      "Only anonymous output receipt statuses filled; A/D score cells remain blank",
+      "Eight final answers and citations unchanged from C raw response parsing",
+      "No API secrets or account-specific endpoint included in published derivatives",
+      "Six synthetic edge-case tests passed; no synthetic data presented as experiment results",
+      "Word/PDF and Excel layouts checked"
     ]
   },
-  "AB_v08": {
-    "version": "0.8",
-    "date_bjt": "2026-10-23",
-    "scope": "智动力年报收件、五题原页补证、队长复核与收件安排",
-    "candidate_questions": 20,
-    "exact_question_times": 9,
-    "question_times_unresolved": 11,
-    "archived_original_pdfs": 8,
-    "new_annual_pdf_pages": 205,
-    "evidence_cards": 21,
-    "cards_with_original_hash": 20,
-    "original_text_pages": 34,
-    "selected_pdf_pages": 16,
-    "captain_review_rows": 5,
-    "independent_D_review_rows": 5,
-    "completed_captain_review_rows": 0,
-    "completed_D_review_rows": 0,
-    "smoke_questions": 2,
-    "planned_smoke_calls": 8,
-    "actual_api_calls_received": 0,
-    "completed_human_tasks_received": 0,
+  "receipt_audit": {
+    "version": "0.10",
+    "date_bjt": "2026-10-24",
+    "received_files": [
+      {
+        "file": "D_原始回传.xlsx",
+        "sha256": "f783fafaeb7dff8ebad28a6ce00e34d3c1dca673da245c05804c5bc23b18029e",
+        "bytes": 20457
+      },
+      {
+        "file": "C_原始回传.zip",
+        "sha256": "13d3fe65c23f7e2f844a24bb395b9f465a311ee79bca798c4a0f05b73a0e0bce",
+        "bytes": 655026
+      }
+    ],
+    "api_attempts_received": 8,
+    "successful_http_responses": 8,
+    "parsed_final_answers": 8,
+    "retries_received": 0,
+    "input_tokens": 21420,
+    "output_tokens": 1618,
+    "reference_fee_cny": "0.0155928",
+    "actual_paid_cny": null,
+    "D_evidence_review_rows_received": 7,
+    "D_independence": "D self-reported no prior answer exposure; not independently verified",
+    "D_output_scores_received": 0,
+    "A_output_scores_received": 0,
     "formal_frozen_questions": 0,
-    "workbook_sheet_counts": {
-      "main": 17,
-      "budget": 7
-    },
-    "cached_formulas": {
-      "02_20题候选与证据工作簿.xlsx": 20,
-      "18_准入检查与API预算.xlsx": 22
-    },
-    "document_pages": {
-      "01_AB研究主稿与执行说明.pdf": 10,
-      "19_队长待办与收件清单.pdf": 2
+    "formal_human_tasks_completed": 0,
+    "formal_runs_received": 0,
+    "price_independent_check": {
+      "checked_date_bjt": "2026-10-24",
+      "DeepSeek": {
+        "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+        "applicable": "Saturday off-peak CNY per million input miss 1, input hit 0.02, output 4",
+        "alias_version_from_document_only": "DeepSeek-V4.1-Flash-1017"
+      },
+      "Qwen": {
+        "url": "https://help.aliyun.com/zh/model-studio/qwen3-7-flash",
+        "applicable": "qwen3.7-flash-2026-07-15 Beijing input<=32k CNY per million input .2, cache hit .04, output .8"
+      }
     },
     "checks": [
-      "8份原件字节哈希及页数一致；新增年报205页",
-      "34页文本逐字对照原件；16页选编文字与对应原页一致",
-      "5题无答案输入按提问前证据组织，未批准模型运行",
-      "20题候选、9题实际原时点；人工复核与正式冻结未伪填完成",
-      "20条数值复算和22条预算公式重算并保留缓存",
-      "Word/PDF导出并核查版面；年报缺口状态同步更新",
-      "C仍为P-A07/P-A08的8次调用准备包，未扩大任务"
+      "planned eight slots complete and no retries received",
+      "request body hashes and fixed question/evidence/prompt contents match",
+      "usage matches raw JSON response and recorded values",
+      "Decimal fee recalculation matches all eight rows",
+      "response timestamps, statuses and parsed output correspond",
+      "anonymous output text and citation arrays identical to raw response parsing",
+      "D seven independent evidence rows received, eight score rows remain empty"
     ],
-    "remaining": [
-      "11题实际提问时间补证或替换",
-      "苏泊尔P-A06表间差异与规则来源原件核验",
-      "A五题复核及D独立校准",
-      "C八次接口原始输出、usage和费用回传",
-      "完整预实验、正式样本冻结与执行",
-      "比赛原始通知及提交模板核对"
+    "limits": [
+      "Delivered logs checked; provider billing not independently authenticated",
+      "Format success is not quality qualification",
+      "Only two pilot questions, no model quality ranking",
+      "Four-dimension vs five-binary scoring schema pending reconciliation",
+      "D fact notes contain scope and interpretation issues; not yet frozen"
     ]
   }
 }

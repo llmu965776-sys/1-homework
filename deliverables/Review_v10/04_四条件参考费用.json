@@ -1,0 +1,50 @@
+[
+  {
+    "model_family": "DeepSeek",
+    "flow": "boundary",
+    "calls": 2,
+    "input_tokens": 4889,
+    "output_tokens": 436,
+    "reference_fee_cny": "0.006633",
+    "mean_latency_ms": 2717.5,
+    "qualified_n": null,
+    "cost_per_qualified": null,
+    "actual_paid_cny": null
+  },
+  {
+    "model_family": "DeepSeek",
+    "flow": "direct",
+    "calls": 2,
+    "input_tokens": 4793,
+    "output_tokens": 273,
+    "reference_fee_cny": "0.005885",
+    "mean_latency_ms": 1798.0,
+    "qualified_n": null,
+    "cost_per_qualified": null,
+    "actual_paid_cny": null
+  },
+  {
+    "model_family": "千问",
+    "flow": "boundary",
+    "calls": 2,
+    "input_tokens": 5916,
+    "output_tokens": 572,
+    "reference_fee_cny": "0.0016408",
+    "mean_latency_ms": 5515.5,
+    "qualified_n": null,
+    "cost_per_qualified": null,
+    "actual_paid_cny": null
+  },
+  {
+    "model_family": "千问",
+    "flow": "direct",
+    "calls": 2,
+    "input_tokens": 5822,
+    "output_tokens": 337,
+    "reference_fee_cny": "0.0014340",
+    "mean_latency_ms": 4003.0,
+    "qualified_n": null,
+    "cost_per_qualified": null,
+    "actual_paid_cny": null
+  }
+]

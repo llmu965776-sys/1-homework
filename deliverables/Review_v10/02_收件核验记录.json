@@ -1,0 +1,59 @@
+{
+  "version": "0.10",
+  "date_bjt": "2026-10-24",
+  "received_files": [
+    {
+      "file": "D_原始回传.xlsx",
+      "sha256": "f783fafaeb7dff8ebad28a6ce00e34d3c1dca673da245c05804c5bc23b18029e",
+      "bytes": 20457
+    },
+    {
+      "file": "C_原始回传.zip",
+      "sha256": "13d3fe65c23f7e2f844a24bb395b9f465a311ee79bca798c4a0f05b73a0e0bce",
+      "bytes": 655026
+    }
+  ],
+  "api_attempts_received": 8,
+  "successful_http_responses": 8,
+  "parsed_final_answers": 8,
+  "retries_received": 0,
+  "input_tokens": 21420,
+  "output_tokens": 1618,
+  "reference_fee_cny": "0.0155928",
+  "actual_paid_cny": null,
+  "D_evidence_review_rows_received": 7,
+  "D_independence": "D self-reported no prior answer exposure; not independently verified",
+  "D_output_scores_received": 0,
+  "A_output_scores_received": 0,
+  "formal_frozen_questions": 0,
+  "formal_human_tasks_completed": 0,
+  "formal_runs_received": 0,
+  "price_independent_check": {
+    "checked_date_bjt": "2026-10-24",
+    "DeepSeek": {
+      "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+      "applicable": "Saturday off-peak CNY per million input miss 1, input hit 0.02, output 4",
+      "alias_version_from_document_only": "DeepSeek-V4.1-Flash-1017"
+    },
+    "Qwen": {
+      "url": "https://help.aliyun.com/zh/model-studio/qwen3-7-flash",
+      "applicable": "qwen3.7-flash-2026-07-15 Beijing input<=32k CNY per million input .2, cache hit .04, output .8"
+    }
+  },
+  "checks": [
+    "planned eight slots complete and no retries received",
+    "request body hashes and fixed question/evidence/prompt contents match",
+    "usage matches raw JSON response and recorded values",
+    "Decimal fee recalculation matches all eight rows",
+    "response timestamps, statuses and parsed output correspond",
+    "anonymous output text and citation arrays identical to raw response parsing",
+    "D seven independent evidence rows received, eight score rows remain empty"
+  ],
+  "limits": [
+    "Delivered logs checked; provider billing not independently authenticated",
+    "Format success is not quality qualification",
+    "Only two pilot questions, no model quality ranking",
+    "Four-dimension vs five-binary scoring schema pending reconciliation",
+    "D fact notes contain scope and interpretation issues; not yet frozen"
+  ]
+}

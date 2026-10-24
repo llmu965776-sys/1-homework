@@ -1,0 +1,36 @@
+{
+  "version": "0.10",
+  "date_bjt": "2026-10-24",
+  "audit_file": "02_收件核验记录.json",
+  "received_api_attempts": 8,
+  "new_api_calls": 0,
+  "D_fact_review_rows": 7,
+  "D_output_scores": 0,
+  "A_output_scores": 0,
+  "D_original_preserved_byte_identical": true,
+  "model_answers_unedited": true,
+  "difference_rows": 15,
+  "D_workbook_sheets": 9,
+  "analysis_tests_passed": 6,
+  "quality_status": "pending; not zero",
+  "formal_frozen": false,
+  "PDF_pages": {
+    "01_交付验收与下一步说明.pdf": 2,
+    "给A_独立八条评分/04_苏泊尔两题证据原页.pdf": 4,
+    "给A_独立八条评分/00_先读_A独立评分.pdf": 1,
+    "给C_补件与分析接口/00_先读_验收与补件说明.pdf": 1,
+    "给D_修订与八条试评/02_校准规则修订建议.pdf": 2,
+    "给D_修订与八条试评/07_智动力5题证据原页.pdf": 16,
+    "给D_修订与八条试评/00_先读_本轮只补修订与试评分.pdf": 1,
+    "给D_修订与八条试评/05_苏泊尔两题证据原页.pdf": 4
+  },
+  "checks": [
+    "D original 5-sheet workbook archived byte-identically",
+    "D received evidence and rule rows retained without silent rewriting",
+    "Only anonymous output receipt statuses filled; A/D score cells remain blank",
+    "Eight final answers and citations unchanged from C raw response parsing",
+    "No API secrets or account-specific endpoint included in published derivatives",
+    "Six synthetic edge-case tests passed; no synthetic data presented as experiment results",
+    "Word/PDF and Excel layouts checked"
+  ]
+}
