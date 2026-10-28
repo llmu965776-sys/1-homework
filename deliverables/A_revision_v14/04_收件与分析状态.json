@@ -1,0 +1,28 @@
+{
+  "date_bjt": "2026-10-28",
+  "round": "A revision after assistant feedback",
+  "original_file_sha256": "69282234393278e305fee5f926da829ef3f730c2dcec9452980219f7118365df",
+  "bytes": 13092,
+  "first_rating_cells_changed": 14,
+  "fact_flags_corrected": 8,
+  "coverage_score_conflicts_corrected": 4,
+  "reply_text_and_citations_unchanged": true,
+  "A_revised_ratings_received": 8,
+  "provisional_single_rater_threshold_ids": [
+    "CAL-01",
+    "CAL-03",
+    "CAL-06"
+  ],
+  "provisional_single_rater_threshold_count": 3,
+  "provisional_single_rater_threshold_denominator": 8,
+  "pending_claim_review": [
+    "CAL-07",
+    "CAL-04"
+  ],
+  "D_output_scores_received": 0,
+  "final_adjudications": 0,
+  "final_qualification_rate": null,
+  "cost_per_qualified": null,
+  "inter_rater_agreement": null,
+  "assistant_changed_human_scores": false
+}
