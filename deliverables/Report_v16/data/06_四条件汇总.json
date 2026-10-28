@@ -1,0 +1,42 @@
+[
+  {
+    "model": "DeepSeek",
+    "flow": "direct",
+    "n": 2,
+    "input_tokens": 4793,
+    "output_tokens": 273,
+    "input_fee": "0.004793",
+    "output_fee": "0.001092",
+    "fee": "0.005885"
+  },
+  {
+    "model": "DeepSeek",
+    "flow": "boundary",
+    "n": 2,
+    "input_tokens": 4889,
+    "output_tokens": 436,
+    "input_fee": "0.004889",
+    "output_fee": "0.001744",
+    "fee": "0.006633"
+  },
+  {
+    "model": "千问",
+    "flow": "direct",
+    "n": 2,
+    "input_tokens": 5822,
+    "output_tokens": 337,
+    "input_fee": "0.0011644",
+    "output_fee": "0.0002696",
+    "fee": "0.0014340"
+  },
+  {
+    "model": "千问",
+    "flow": "boundary",
+    "n": 2,
+    "input_tokens": 5916,
+    "output_tokens": 572,
+    "input_fee": "0.0011832",
+    "output_fee": "0.0004576",
+    "fee": "0.0016408"
+  }
+]

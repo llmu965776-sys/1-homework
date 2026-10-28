@@ -1,0 +1,21 @@
+{
+  "pdf_pages": 30,
+  "visible_docx_characters_including_tables": 16889,
+  "visible_docx_chinese_characters": 12427,
+  "under_30000_even_counting_all_visible_characters": true,
+  "word_normal_font_eastAsia": "宋体",
+  "word_normal_font_latin": "Times New Roman",
+  "normal_font_size_pt": 12,
+  "normal_line_spacing": 1.5,
+  "pdf_fonts_are_substitutes": true,
+  "pdf_fallback_fonts": [
+    "Noto Serif CJK SC",
+    "Liberation Serif"
+  ],
+  "no_blank_pdf_pages": true,
+  "no_text_blocks_outside_page": true,
+  "TOC_fields": "PAGEREF; update Ctrl+A F9 after local changes",
+  "note": "PDF requires local export on a computer with prescribed fonts before claiming exact typography compliance",
+  "TOC_matches_rendered_chapter_pages": true,
+  "all_30_pages_contact_sheet_reviewed": true
+}

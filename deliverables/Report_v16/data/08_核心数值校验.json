@@ -1,0 +1,18 @@
+{
+  "input_tokens": 21420,
+  "output_tokens": 1618,
+  "total_tokens": 23038,
+  "reference_fee_cny": "0.0155928",
+  "average_reference_fee_cny": "0.0019491",
+  "category_mean_2024": "79.74558373496932274875552929",
+  "category_mean_2025": "75.17085355809831697131586759",
+  "category_mean_change_percent": "-5.736656454951668836703612060",
+  "boundary_cost_increase_percent": {
+    "DeepSeek": "12.71028037383177570093457940",
+    "千问": "14.42119944211994421199442120"
+  },
+  "human_time_observations": 0,
+  "D_independent_output_scores_received": 0,
+  "provisional_calibration_passes": 3,
+  "final_joint_quality_rate": null
+}
