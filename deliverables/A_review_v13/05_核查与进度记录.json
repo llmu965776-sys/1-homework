@@ -1,0 +1,34 @@
+{
+  "date_bjt": "2026-10-28",
+  "A_first_score_rows_received": 8,
+  "A_original_sha256": "482ba86472cf674787bf3f69d5430ab2f933fdb38dc55c4ea67991711c65cf64",
+  "A_original_bytes": 13056,
+  "original_archived_byte_identically": true,
+  "FECB_cells_filled": 32,
+  "original_FECB_all_two": true,
+  "fact_assertion_flags_need_review": 8,
+  "coverage_score_count_conflict_ids": [
+    "CAL-02",
+    "CAL-04",
+    "CAL-05",
+    "CAL-08"
+  ],
+  "substantive_claim_review_priority_ids": [
+    "CAL-07",
+    "CAL-04"
+  ],
+  "unique_questions": 2,
+  "unique_reply_texts": 8,
+  "last_six_unique_reply_texts": 6,
+  "exact_duplicate_text_pairs": 0,
+  "source_text_and_citation_matches": 8,
+  "A_review_round_status": "pending; post-assistant-feedback calibration",
+  "D_output_scores_received": 0,
+  "final_adjudicated_scores": 0,
+  "final_pass_rate": null,
+  "cost_per_qualified": null,
+  "inter_rater_agreement": null,
+  "assistant_human_scores_filled": 0,
+  "original_date_cell_raw": 10.28,
+  "date_interpretation": "awaiting A confirmation; do not invent exact time"
+}
