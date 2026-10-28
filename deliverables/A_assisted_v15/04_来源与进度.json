@@ -1,0 +1,26 @@
+{
+  "date_bjt": "2026-10-28",
+  "authorization": "User explicitly authorized assistant judgment for the two outstanding items",
+  "source_A_revision_sha256": "69282234393278e305fee5f926da829ef3f730c2dcec9452980219f7118365df",
+  "assistant_adjudicated_ids": [
+    "CAL-04",
+    "CAL-07"
+  ],
+  "unchanged_carried_A_revision_rows": 6,
+  "human_original_files_preserved": true,
+  "independent_new_human_ratings": 0,
+  "provisional_threshold_pass_ids": [
+    "CAL-01",
+    "CAL-03",
+    "CAL-06"
+  ],
+  "provisional_threshold_count": 3,
+  "total_outputs": 8,
+  "unique_questions": 2,
+  "D_output_scores_received": 0,
+  "final_joint_adjudications": 0,
+  "inter_rater_agreement": null,
+  "final_qualified_cost": null,
+  "A_action_for_these_two_items": "completed; no further resubmission needed",
+  "provenance": "post-feedback assistant-assisted calibration, not blind independent rating"
+}
