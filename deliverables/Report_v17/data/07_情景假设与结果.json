@@ -1,0 +1,126 @@
+{
+  "assumptions": "Hypothetical labor inputs; API anchor from eight logged calls; exclude preparation/deployment and quality differences",
+  "rows": [
+    {
+      "wage_scenario_cny_per_hour": 60,
+      "minutes_scenario": 0,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "0",
+      "partial_total_cny": "0.0019491",
+      "total_drop_ratio_after_API_half": "0.5"
+    },
+    {
+      "wage_scenario_cny_per_hour": 60,
+      "minutes_scenario": 1,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "1",
+      "partial_total_cny": "1.0019491",
+      "total_drop_ratio_after_API_half": "0.0009726541996993659657960668860"
+    },
+    {
+      "wage_scenario_cny_per_hour": 60,
+      "minutes_scenario": 3,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "3",
+      "partial_total_cny": "3.0019491",
+      "total_drop_ratio_after_API_half": "0.0003246390819884321156544592978"
+    },
+    {
+      "wage_scenario_cny_per_hour": 60,
+      "minutes_scenario": 5,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "5",
+      "partial_total_cny": "5.0019491",
+      "total_drop_ratio_after_API_half": "0.0001948340497907105851996774617"
+    },
+    {
+      "wage_scenario_cny_per_hour": 60,
+      "minutes_scenario": 10,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "10",
+      "partial_total_cny": "10.0019491",
+      "total_drop_ratio_after_API_half": "0.00009743600874753501794965143344"
+    },
+    {
+      "wage_scenario_cny_per_hour": 120,
+      "minutes_scenario": 0,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "0",
+      "partial_total_cny": "0.0019491",
+      "total_drop_ratio_after_API_half": "0.5"
+    },
+    {
+      "wage_scenario_cny_per_hour": 120,
+      "minutes_scenario": 1,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "2",
+      "partial_total_cny": "2.0019491",
+      "total_drop_ratio_after_API_half": "0.0004868005884864904906922958231"
+    },
+    {
+      "wage_scenario_cny_per_hour": 120,
+      "minutes_scenario": 3,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "6",
+      "partial_total_cny": "6.0019491",
+      "total_drop_ratio_after_API_half": "0.0001623722533734916212468379647"
+    },
+    {
+      "wage_scenario_cny_per_hour": 120,
+      "minutes_scenario": 5,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "10",
+      "partial_total_cny": "10.0019491",
+      "total_drop_ratio_after_API_half": "0.00009743600874753501794965143344"
+    },
+    {
+      "wage_scenario_cny_per_hour": 120,
+      "minutes_scenario": 10,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "20",
+      "partial_total_cny": "20.0019491",
+      "total_drop_ratio_after_API_half": "0.00004872275172423071509566035242"
+    },
+    {
+      "wage_scenario_cny_per_hour": 240,
+      "minutes_scenario": 0,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "0",
+      "partial_total_cny": "0.0019491",
+      "total_drop_ratio_after_API_half": "0.5"
+    },
+    {
+      "wage_scenario_cny_per_hour": 240,
+      "minutes_scenario": 1,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "4",
+      "partial_total_cny": "4.0019491",
+      "total_drop_ratio_after_API_half": "0.0002435188393575520488254085990"
+    },
+    {
+      "wage_scenario_cny_per_hour": 240,
+      "minutes_scenario": 3,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "12",
+      "partial_total_cny": "12.0019491",
+      "total_drop_ratio_after_API_half": "0.00008119931120187803496017159413"
+    },
+    {
+      "wage_scenario_cny_per_hour": 240,
+      "minutes_scenario": 5,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "20",
+      "partial_total_cny": "20.0019491",
+      "total_drop_ratio_after_API_half": "0.00004872275172423071509566035242"
+    },
+    {
+      "wage_scenario_cny_per_hour": 240,
+      "minutes_scenario": 10,
+      "API_anchor_cny": "0.0019491",
+      "human_scenario_cny": "40",
+      "partial_total_cny": "40.0019491",
+      "total_drop_ratio_after_API_half": "0.00002436256287321759528962552477"
+    }
+  ],
+  "price_sensitivity": "total_drop_ratio = API_share * price_discount"
+}

@@ -1,0 +1,21 @@
+{
+  "date_bjt": "2026-10-29",
+  "pdf_pages": 31,
+  "docx_visible_chars_including_tables": 17542,
+  "chinese_chars": 13154,
+  "under_30000": true,
+  "figures": 4,
+  "tables": 5,
+  "toc_matches_pdf": true,
+  "pdf_text_out_of_page": [],
+  "body_font_properties": "宋体/Times New Roman，小四12pt，1.5倍行距",
+  "pdf_fonts": "Noto Serif CJK SC and Liberation Serif fallback; proof only; local export required",
+  "spreadsheet_cached_formula_counts": {
+    "Report_v17": 185,
+    "D_review_v17": 44
+  },
+  "D_files_score_fields_match": true,
+  "D_independence": "D self-report plus captain confirmation; no access log audit",
+  "original_files_retained": true,
+  "email_sent": false
+}
