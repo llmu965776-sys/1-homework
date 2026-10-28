@@ -1,0 +1,45 @@
+{
+  "date_bjt": "2026-10-28",
+  "source_files": [
+    {
+      "name": "评分标准.pdf",
+      "sha256": "da8f89db5cc41fca35abd013011a20b3c9150092900cb4a13f3dd9eda89d2c5c"
+    },
+    {
+      "name": "2026 Find “凡能仙·今经乐道”参赛手册.pdf",
+      "sha256": "ce92bf04489cc30d2d850a62794e801f09e9a683daafe4a1b89c212780ecd2ce"
+    }
+  ],
+  "source_pages": {
+    "评分标准": [
+      1
+    ],
+    "参赛手册": [
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      16,
+      17,
+      18
+    ]
+  },
+  "tju_deadline_source": "User explicitly confirmed on 2026-10-28; not printed in uploaded general manual",
+  "tju_deadline_bjt": "2026-10-29T22:00:00+08:00",
+  "tju_email": "tjucomers2026@163.com",
+  "new_colleague_registered": "user_confirmed",
+  "pending_questions": 11,
+  "priority_ids": [
+    "P-A10",
+    "P-A13",
+    "P-A15",
+    "P-A17",
+    "P-A20"
+  ],
+  "sample_results_filled": 0,
+  "human_scores_filled": 0,
+  "existing_scoring_version_changed": false
+}
