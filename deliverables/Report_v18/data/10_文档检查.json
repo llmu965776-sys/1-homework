@@ -1,0 +1,29 @@
+{
+  "date_bjt": "2026-10-29",
+  "pdf_pages": 32,
+  "docx_visible_chars_including_tables": 18564,
+  "chinese_chars": 13606,
+  "under_30000": true,
+  "figures": 4,
+  "tables": 5,
+  "references": 14,
+  "toc_matches_pdf": true,
+  "pdf_text_out_of_page": [],
+  "body_font_properties": "宋体/Times New Roman，小四12pt，1.5倍行距",
+  "pdf_fonts": "Noto Serif CJK SC and Liberation Serif fallback; proof only; local export required",
+  "spreadsheet_cached_formulas": {
+    "Report_v18": 185,
+    "Sources_v18": 3
+  },
+  "sources_reviewed": 11,
+  "sources_match_original_pages": 11,
+  "new_question_times": 0,
+  "pool_count": 20,
+  "pool_precise_time_count": 9,
+  "unresolved_time_count": 11,
+  "proxy_cutoffs_moved_to_history": 11,
+  "actual_API_questions": 2,
+  "actual_API_outputs": 8,
+  "controlled_human_records": 0,
+  "email_sent": false
+}

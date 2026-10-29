@@ -1,0 +1,9 @@
+﻿anonymous_id,question_id,F,E,C,B,key_error,standard_U,unsupported,overrefusal,covered,required,pass
+CAL-01,P-A07,2,2,2,2,False,False,False,False,3,3,True
+CAL-02,P-A08,2,2,1,2,False,False,False,False,2,3,False
+CAL-03,P-A07,2,2,2,2,False,False,False,False,3,3,True
+CAL-04,P-A08,2,2,0,1,True,False,True,False,1,3,False
+CAL-05,P-A08,2,2,0,2,False,False,False,True,1,3,False
+CAL-06,P-A07,2,2,2,2,False,False,False,False,3,3,True
+CAL-07,P-A07,2,2,0,0,True,False,True,False,1,3,False
+CAL-08,P-A08,2,2,1,2,False,False,False,False,2,3,False

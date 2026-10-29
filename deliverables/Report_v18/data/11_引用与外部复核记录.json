@@ -1,0 +1,49 @@
+{
+  "date_bjt": "2026-10-28",
+  "items": [
+    {
+      "source": "思美传媒处罚",
+      "url": "https://www.csrc.gov.cn/zhejiang/c103950/c7459526/content.shtml",
+      "verified": "决定落款2024-01-18；公司150万元/责任人100万元；非AI事故认定"
+    },
+    {
+      "source": "投资者关系指引附件",
+      "url": "https://www.csrc.gov.cn/csrc/c101954/c2334702/2334702/files/附件1：上市公司投资者关系管理工作指引.pdf",
+      "verified": "PDF10页；第4/13/25条对应物理页2/5/8"
+    },
+    {
+      "source": "DeepSeek价格",
+      "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+      "verified": "空闲输入未命中1、输出4元/百万；10/24周末；别名映射不是原始响应不可变版本证明"
+    },
+    {
+      "source": "千问快照价格",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen3-7-flash",
+      "verified": "2026-07-15快照，北京输入<=32k：输入0.2、输出0.8元/百万"
+    },
+    {
+      "source": "替代期刊全文",
+      "url": "https://qks.shufe.edu.cn/j/PDFFull/17794c14-b22d-4e71-b91b-053fc480a45a.pdf",
+      "verified": "财经研究2022年48(10):153—168；标题作者已复核"
+    },
+    {
+      "source": "用户上传文献",
+      "verified": "SSRN 2025工作稿及中文期刊按已归档精读记录引用；中文期刊封面再作视觉检查，2026年第4期，94页起"
+    }
+  ],
+  "limits": "网页当前可见价格不替代历史账单；研究未实施法律合规鉴定；全文源文件不在本包重复分发。",
+  "source_verification_v18": {
+    "date_bjt": "2026-10-29",
+    "official_company_activity_records": [
+      "https://static.cninfo.com.cn/finalpage/2026-05-13/1225304104.PDF",
+      "https://static.cninfo.com.cn/finalpage/2026-05-07/1225280960.PDF"
+    ],
+    "precollection_notices": [
+      "https://static.cninfo.com.cn/finalpage/2026-04-29/1225237778.PDF",
+      "https://static.cninfo.com.cn/finalpage/2026-04-22/1225135728.PDF"
+    ],
+    "questions_text_verified": 11,
+    "new_individual_question_times": 0,
+    "notes": "User-provided PDF pages match raw questions after whitespace/NFKC normalization; official same-record text reviewed online, no online byte-equality test. Former activity-based proxy cutoffs retained only in historical columns."
+  }
+}

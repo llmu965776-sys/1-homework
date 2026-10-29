@@ -1,0 +1,62 @@
+{
+  "date_bjt": "2026-10-29",
+  "D_scores_received": 8,
+  "two_D_files_score_fields_identical": true,
+  "D_anonymous_outputs_match_prior": true,
+  "D_self_declared_unexposed": true,
+  "independence_verified_beyond_self_report": true,
+  "D_file_contains_internal_revisions": true,
+  "D_earliest_pre_revision_file_received": false,
+  "A_first_threshold_pass_count": 8,
+  "D_delivered_threshold_pass_count": 3,
+  "A_first_vs_D_delivered_agreement_count": 3,
+  "N_outputs": 8,
+  "N_questions": 2,
+  "agreement_rate": 0.375,
+  "cohen_kappa_descriptive": 0.0,
+  "chance_agreement": 0.375,
+  "dimension_agreement_counts": {
+    "F": 8,
+    "E": 8,
+    "C": 3,
+    "B": 6
+  },
+  "dimension_agreement_total": 25,
+  "dimension_comparisons": 32,
+  "post_feedback_A_assisted_vs_D_threshold_agreement_count": 8,
+  "post_feedback_agreement_is_independent_reliability": false,
+  "common_threshold_pass_ids": [
+    "CAL-01",
+    "CAL-03",
+    "CAL-06"
+  ],
+  "common_threshold_fail_ids": [
+    "CAL-02",
+    "CAL-04",
+    "CAL-05",
+    "CAL-07",
+    "CAL-08"
+  ],
+  "detailed_scores_jointly_adjudicated": false,
+  "D_overrefusal_ids": [
+    "CAL-05"
+  ],
+  "A_assisted_overrefusal_ids": [],
+  "overrefusal_label_sensitivity": [
+    0,
+    0.125
+  ],
+  "reference_API_cost_total_cny": "0.0155928",
+  "reference_API_cost_per_current_qualified_draft_cny": "0.0051976",
+  "unit_cost_scope": "Retrospective pooled two-question/eight-output batch; reference API fee only; excludes preparation, human work and deployment; not estimated future delivery cost",
+  "invoice_actual_paid_cny": null,
+  "controlled_human_tasks_completed": 0,
+  "notes": "Different scoring interpretations, small clustered tasks and A first ratings constant mean kappa is only a calibration diagnostic, not formal common-rubric reliability.",
+  "independence_verification_basis": "D self-report plus captain confirmation; no access-log audit",
+  "captain_exposure_confirmation": {
+    "date_bjt": "2026-10-29",
+    "source": "User/captain reply in conversation",
+    "statement": "确认D完成两份评分文件前未看过CAL-04、CAL-07具体改分讨论",
+    "scope": "Corroborates D self-report of no exposure; not an access-log audit; does not remove D internal revisions or rubric differences"
+  }
+}

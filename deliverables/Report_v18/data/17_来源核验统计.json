@@ -1,0 +1,11 @@
+{
+  "questions_reviewed": 11,
+  "question_text_and_source_confirmed": 11,
+  "new_question_times_recovered": 0,
+  "pool_question_count": 20,
+  "pool_precise_question_times_previously_recorded": 9,
+  "pool_time_unresolved": 11,
+  "actual_API_questions": 2,
+  "actual_API_outputs": 8,
+  "controlled_human_task_observations": 0
+}

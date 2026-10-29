@@ -1,0 +1,10 @@
+{
+  "questions": 11,
+  "all_question_text_matches_selected_PDF_pages": true,
+  "original_pages_in_combined_PDF": 8,
+  "new_question_times": 0,
+  "current_cutoffs_null": true,
+  "new_API_calls": 0,
+  "new_human_experiments": 0,
+  "source_workbook_cached_formulas": 3
+}

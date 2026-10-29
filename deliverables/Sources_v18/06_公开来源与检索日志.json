@@ -1,0 +1,183 @@
+{
+  "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+  "scope": "11 previously unresolved candidates P-A10—20; no new API calls or independent human ratings",
+  "method": "First review uploaded original PDF question text and page, then open official CNINFO documents and platform entry/collection notices; exact-prefix web searches per question. Unicode NFKC and whitespace normalization used only for matching, raw question preserved.",
+  "time_findings": "No per-question submission timestamps recovered from accessed public pages. This does not establish that the platform has never held those fields.",
+  "no_submission_actions": true,
+  "sources": [
+    {
+      "company": "老板电器",
+      "type": "活动记录全文",
+      "record_id": "2026-001",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-13/1225304104.PDF",
+      "review": "原文、编号、活动日与上传原件核对；未进行线上字节哈希相等检验"
+    },
+    {
+      "company": "老板电器",
+      "type": "说明会预告及征集说明",
+      "record_id": "2026-023",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225237778.PDF",
+      "document_url_date": "2026-04-29",
+      "signature_date": "2026-04-29",
+      "review": "公告载明可在2026-05-12前通过全景网征集页提问；不是这五题逐题的提交日期。"
+    },
+    {
+      "company": "老板电器",
+      "type": "平台入口",
+      "url": "https://rs.p5w.net/investor/002508",
+      "review": "立讯旧活动页可读活动日和时段，未读到逐题时间；老板路演厅重定向的新页未返回可用正文。"
+    },
+    {
+      "company": "立讯精密",
+      "type": "活动记录全文",
+      "record_id": "2026-002",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-07/1225280960.PDF",
+      "review": "原文、编号、活动日与上传原件核对；未进行线上字节哈希相等检验"
+    },
+    {
+      "company": "立讯精密",
+      "type": "说明会预告及征集说明",
+      "record_id": "2026-040",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-22/1225135728.PDF",
+      "document_url_date": "2026-04-22",
+      "signature_date": "2026-04-21",
+      "review": "公告载明可在2026-04-30 18:00前邮件征集；不能据此断言这六题均经邮箱提交，也不能推出各题提交时点。"
+    },
+    {
+      "company": "立讯精密",
+      "type": "平台入口",
+      "url": "https://rs.p5w.net/roadshowLive/index.shtml?roadshowId=0001FFC747A369CF400E98FF479DDFF3E30D",
+      "review": "立讯旧活动页可读活动日和时段，未读到逐题时间；老板路演厅重定向的新页未返回可用正文。"
+    }
+  ],
+  "question_searches": [
+    {
+      "question_id": "P-A10",
+      "query_executed": "\"2025年度，公司在新品研发方面\" \"提问\"",
+      "opened_primary_url": "https://static.cninfo.com.cn/finalpage/2026-05-13/1225304104.PDF",
+      "local_pdf_page_checked": 1,
+      "result": "出处及原文匹配；未取得逐题提问时间",
+      "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+      "measured_human_minutes": null,
+      "not_human_experiment": true
+    },
+    {
+      "question_id": "P-A11",
+      "query_executed": "\"2025年度公司在成本控制方面采取了哪些具体措施\"",
+      "opened_primary_url": "https://static.cninfo.com.cn/finalpage/2026-05-13/1225304104.PDF",
+      "local_pdf_page_checked": 2,
+      "result": "出处及原文匹配；未取得逐题提问时间",
+      "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+      "measured_human_minutes": null,
+      "not_human_experiment": true
+    },
+    {
+      "question_id": "P-A12",
+      "query_executed": "\"老板电器\" \"市场竞争加剧\" \"2025\" \"提问\"",
+      "opened_primary_url": "https://static.cninfo.com.cn/finalpage/2026-05-13/1225304104.PDF",
+      "local_pdf_page_checked": 2,
+      "result": "出处及原文匹配；未取得逐题提问时间",
+      "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+      "measured_human_minutes": null,
+      "not_human_experiment": true
+    },
+    {
+      "question_id": "P-A13",
+      "query_executed": "\"老板电器\" \"2025年公司在海外市场的拓展取得了哪些具体进展\"",
+      "opened_primary_url": "https://static.cninfo.com.cn/finalpage/2026-05-13/1225304104.PDF",
+      "local_pdf_page_checked": 3,
+      "result": "出处及原文匹配；未取得逐题提问时间",
+      "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+      "measured_human_minutes": null,
+      "not_human_experiment": true
+    },
+    {
+      "question_id": "P-A14",
+      "query_executed": "\"四川大决策\" \"C端复苏力度\"",
+      "opened_primary_url": "https://static.cninfo.com.cn/finalpage/2026-05-13/1225304104.PDF",
+      "local_pdf_page_checked": 3,
+      "result": "出处及原文匹配；未取得逐题提问时间",
+      "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+      "measured_human_minutes": null,
+      "not_human_experiment": true
+    },
+    {
+      "question_id": "P-A15",
+      "query_executed": "\"立讯精密\" \"有回购股票并注销的方案吗\"",
+      "opened_primary_url": "https://static.cninfo.com.cn/finalpage/2026-05-07/1225280960.PDF",
+      "local_pdf_page_checked": 8,
+      "result": "出处及原文匹配；未取得逐题提问时间",
+      "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+      "measured_human_minutes": null,
+      "not_human_experiment": true
+    },
+    {
+      "question_id": "P-A16",
+      "query_executed": "\"立讯精密\" \"光模块业务何时能做到行业第三\"",
+      "opened_primary_url": "https://static.cninfo.com.cn/finalpage/2026-05-07/1225280960.PDF",
+      "local_pdf_page_checked": 1,
+      "result": "出处及原文匹配；未取得逐题提问时间",
+      "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+      "measured_human_minutes": null,
+      "not_human_experiment": true
+    },
+    {
+      "question_id": "P-A17",
+      "query_executed": "\"立讯精密\" \"对于目前股价，公司认为是否合理\"",
+      "opened_primary_url": "https://static.cninfo.com.cn/finalpage/2026-05-07/1225280960.PDF",
+      "local_pdf_page_checked": 3,
+      "result": "出处及原文匹配；未取得逐题提问时间",
+      "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+      "measured_human_minutes": null,
+      "not_human_experiment": true
+    },
+    {
+      "question_id": "P-A18",
+      "query_executed": "\"请问OpenAI智能手机是公司全部代工吗\"",
+      "opened_primary_url": "https://static.cninfo.com.cn/finalpage/2026-05-07/1225280960.PDF",
+      "local_pdf_page_checked": 3,
+      "result": "出处及原文匹配；未取得逐题提问时间",
+      "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+      "measured_human_minutes": null,
+      "not_human_experiment": true
+    },
+    {
+      "question_id": "P-A19",
+      "query_executed": "\"能否提供AI服务器全年订单量和毛利率目标数据\"",
+      "opened_primary_url": "https://static.cninfo.com.cn/finalpage/2026-05-07/1225280960.PDF",
+      "local_pdf_page_checked": 11,
+      "result": "出处及原文匹配；未取得逐题提问时间",
+      "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+      "measured_human_minutes": null,
+      "not_human_experiment": true
+    },
+    {
+      "question_id": "P-A20",
+      "query_executed": "\"立讯精密\" \"截止4月30日的股东人数是多少\"",
+      "opened_primary_url": "https://static.cninfo.com.cn/finalpage/2026-05-07/1225280960.PDF",
+      "local_pdf_page_checked": 14,
+      "result": "出处及原文匹配；未取得逐题提问时间",
+      "checked_at_bjt": "2026-10-29T09:58:17+08:00",
+      "measured_human_minutes": null,
+      "not_human_experiment": true
+    }
+  ],
+  "additional_entries_searched": [
+    "https://ir.p5w.net/c/002508.shtml",
+    "https://ir.p5w.net/c/002475.shtml",
+    "https://rs.p5w.net/investor/002475",
+    "https://ir.p5w.net/zj/"
+  ],
+  "query_limitations": "Search results mainly point to company activity records and reposts; snippets, article publication times, answer times and precollection deadlines are not evidence of individual question timestamps. No website login or new question submitted.",
+  "summary": {
+    "questions_reviewed": 11,
+    "question_text_and_source_confirmed": 11,
+    "new_question_times_recovered": 0,
+    "pool_question_count": 20,
+    "pool_precise_question_times_previously_recorded": 9,
+    "pool_time_unresolved": 11,
+    "actual_API_questions": 2,
+    "actual_API_outputs": 8,
+    "controlled_human_task_observations": 0
+  }
+}
